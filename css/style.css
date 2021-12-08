@@ -65,18 +65,31 @@
     padding-bottom: 7.2rem;
 }
 
-.bi{
-    color: #f0bd01;
-}
 
 .section1 > p{
     margin-top: 1.8rem!important;
+}
+
+
+.section2{
+    background-color: #f9f9f9;
+}
+
+.bi-quote{
+    font-size: 2.5rem;
+    color: #616161;
 }
 
 .section-btn{
     background-color: #f0bd01;
     float: right;
     border: none;
+    width: 5.3rem;
+    height: 1.75rem;
+}
+
+.p-space{
+    margin-top: 4rem;
 }
 
 .Body_text {
@@ -86,9 +99,36 @@
     text-align: left;
   }
 
-  .footer{
+
+  footer{
       background-color: #e4bc01;
+      padding-top: 2.5rem;
   }
+
+  footer span{
+      font-size: 1.8rem;
+      color: #31332e;
+      font-family: 'League Gothic';
+  }
+
+  footer p {
+      font-size: 1.2rem;
+      font-family: 'Lacuna-Regular';
+  }
+
+  .social-icon .bi{
+    color: #f0bd01;
+}
+
+    .social-icon{
+        background-color: white;
+        height: 1.875rem;
+        width: 1.875rem;
+        border-radius: 50%;
+        margin-right: 1rem;
+        padding-top: 0.2rem;
+    }
+
 
   h5{
       padding-top: 2.5rem;
